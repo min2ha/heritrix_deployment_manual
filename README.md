@@ -1,10 +1,12 @@
 # Heritrix deployment and testing manual
 
-##Deployment
+## Deployment
+```
 docker compose up
+```
 
+## Testing
 
-##Testing
 REST API
 
 Get Engine Status
@@ -13,7 +15,7 @@ curl -v -k -u admin:admin --anyauth --location -H "Accept: application/xml" http
 ```
 
 
-References
+# References
 
 https://github.com/ukwa/ukwa-heritrix
 http://crawler.archive.org/articles/developer_manual/biblio.html#heritrix_user_manual
